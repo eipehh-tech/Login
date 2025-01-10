@@ -1,0 +1,63 @@
+/* Variáveis */
+$background-start-color: #1c1c1c;
+$background-end-color: #121212;
+$text-color: #ffffff;
+$button-color: #1e1e1e;
+$button-hover-color: #333333;
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #3d3d3d, #333333,#121212);
+    color: $text-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.header p {
+    font-size: 1.25rem;
+    color: lighten($text-color, 20%);
+    margin: .5rem 0 .8rem 0;
+}
+
+.main-content .login-button {
+    background-color: $button-color;
+    color: $text-color;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    a{
+        color: $text-color;
+
+        &:active{
+            color: $text-color;
+        }
+    }
+}
+
+.main-content .login-button:hover {
+    background-color: $button-hover-color;
+}

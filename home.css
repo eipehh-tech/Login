@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* Variáveis */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #3d3d3d, #333333, #121212);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.header p {
+  font-size: 1.25rem;
+  color: white;
+  margin: 0.5rem 0 0.8rem 0;
+}
+
+.main-content .login-button {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.main-content .login-button a {
+  color: #ffffff;
+}
+.main-content .login-button a:active {
+  color: #ffffff;
+}
+
+.main-content .login-button:hover {
+  background-color: #333333;
+}/*# sourceMappingURL=home.css.map */
